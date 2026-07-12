@@ -2,6 +2,13 @@ def add(a, b):
     return a + b
 
 
-result = add(3, 5)
+def subtract(a, b):
+    return a - b
 
-print("计算结果：", result)
+
+result1 = add(3, 5)
+result2 = subtract(10, 3)
+
+
+print("加法结果：", result1)
+print("减法结果：", result2)
